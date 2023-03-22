@@ -75,6 +75,16 @@ const rataRata = (arr) => {
     return avr
 }
 
+// console.log(`nilai terkecil untuk array genap : ${nilaiMin (arrIndexGenap)} `);
+// console.log(`nilai terbesar untuk array genap : ${nilaiMax (arrIndexGenap)} `);
+// console.log(`total nilai untuk array genap jika dijumlahkan nilainya : ${totalisasi (arrIndexGenap)} `);
+// console.log(`nilai rata-rata untuk array genap : ${rataRata (arrIndexGenap)} `);
+
+// console.log(`nilai terkecil untuk array ganjil : ${nilaiMin (arrIndexGanjil)} `);
+// console.log(`nilai terbesar untuk array ganjil : ${nilaiMax (arrIndexGanjil)} `);
+// console.log(`total nilai untuk array ganjil jika dijumlahkan nilainya : ${totalisasi (arrIndexGanjil)} `);
+// console.log(`nilai rata-rata untuk array ganjil : ${rataRata (arrIndexGanjil)} `);
+
 const minArrGenap = nilaiMin(arrIndexGenap) //nilai terkecil untuk array genap
 const maxArrGenap = nilaiMax(arrIndexGenap) //nilai terbesar untuk array genap
 const totalArrGenap = totalisasi(arrIndexGenap) //total nilai untuk array genap jika dijumlahkan nilainya
