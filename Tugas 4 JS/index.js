@@ -1,9 +1,12 @@
 //1. Buatlah 100 nilai random (1 sampai 50) pada 1 array
 let nilaiRandom = []
 
-for (let i = 0; i <100; i++) {
-    nilaiRandom.push(Math.ceil(Math.random()*50))
+const getNilai = () => {
+    for (let i = 0; i <100; i++) {
+        nilaiRandom.push(Math.ceil(Math.random()*50))
+    }
 }
+getNilai()
 console.log(nilaiRandom);
 
 
@@ -67,9 +70,9 @@ const totalisasi = (angka) => {
 
 
 // fungsi untuk mendapatkan nilai rata rata pada array
-const rataRata = (arr) => {
-    let total = totalisasi(arr)
-    let avr = total / arr.length
+const rataRata = (angka) => {
+    let total = totalisasi(angka)
+    let avr = total / angka.length
     // console.log(Math.floor(avr));
     // console.log(avr);
     return avr

@@ -1,0 +1,121 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div>
+      <p id="test"></p>
+    </div>
+    <br/>
+    <div class="container mt-5 ">
+        <div class="row">
+        
+          <div class="col" id="registrasi">
+            <div class="">
+                <h2>Form Registrasi</h2><hr />
+            </div>
+
+            <form id="form_registrasi">
+                <div class="mb-3">
+                  <label for="nama" class="form-label">Nama Lengkap</label>
+                  <input type="text" class="form-control" id="nama">
+                </div>
+                <div class="mb-3">
+                  <label for="umur" class="form-label">Umur</label>
+                  <input type="number" class="form-control" id="umur">
+                </div>
+                <div class="mb-3">
+                  <label for="uang_sangu" class="form-label">Uang Sangu</label>
+                  <input type="number" class="form-control" id="uang_sangu">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+          </div>
+
+          <div class="col">
+            <div>
+                <h2>List Pendaftar</h2><hr />
+            </div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Nama Lengkap</th>
+                    <th scope="col">Umur</th>
+                    <th scope="col">Uang Sangu</th>
+                  </tr>
+                </thead>
+                <tbody id="new_table"></tbody>
+              </table>
+              <p id="data_rata_rata"></p>
+          </div>
+
+        </div>
+      </div>
+      
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+<!-- <html>
+   <head>
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <title>Registrasi Pendaftar</title>
+   </head>
+   <body>
+       <div class="tab-content">
+         <div id="registrasi" class="tab-pane fade in active">
+           <h3>Registrasi Pendaftar</h3>
+           <form id="form-registrasi">
+             <div>
+               <label for="nama">Nama:</label>
+               <input type="text" id="nama" required>
+             </div>
+             <div>
+               <label for="umur">Umur:</label>
+               <input type="number" id="umur" required>
+             </div>
+             <div>
+               <label for="uang-sangu">Uang Sangu:</label>
+               <input type="number" id="uang-sangu" required>
+             </div>
+             <button type="submit" onclick="">Daftar</button>
+           </form>
+
+         </div>
+         <div id="list-pendaftar" class="tab-pane fade">
+           <h3>List Pendaftar</h3>
+           <table id="tabel-pendaftar">
+             <thead>
+               <tr>
+                 <th>No.</th>
+                 <th>Nama</th>
+                 <th>Umur</th>
+                 <th>Uang Sangu</th>
+               </tr>
+             </thead>
+             <tbody id="data-pendaftar">
+             </tbody>
+           </table>
+
+           <table id="tabel-rata-rata">
+             <thead>
+               <tr>
+                 <th>Rata-Rata Umur</th>
+                 <th>Rata-Rata Uang Sangu</th>
+               </tr>
+             </thead>
+             <tbody id="data-rata-rata"></tbody>
+           </table>
+         </div>
+       </div>
+     </div>
+       <script src="index.js"></script>
+ </body>
+ </html> -->
