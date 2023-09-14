@@ -1,0 +1,1 @@
+console.log("git gud itu relatif ndre")
